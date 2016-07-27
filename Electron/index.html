@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" crossorigin="anonymous" />
+    <link href="owfont-master/css/owfont-regular.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center">
+          <h1 id="cityTitle"></h1>
+          <h5 id="date"></h5>
+        </div>
+        <div class="col-xs-12 text-center">
+          <h1 id="temp"></h1>
+          <h6 id="currentCond"></h6>
+        </div>
+        <div id="forecast" class="col-xs-12 text-center weekContainer">
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/moment.js"></script>
+    <script type="text/javascript" src="js/deviceready.js"></script>
+  </body>
+
+  <script>
+    deviceReady()
+  </script>
+</html>
